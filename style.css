@@ -1,21 +1,34 @@
 * {
     margin: 0px 20px 0px 20px;
     padding: 0px;
+    font-family: Comic Sans MS;
 }
 
 h1 {
     margin-right: 625px;
+    font-size: xx-large;
+}
+
+ul {
+    margin: 15px;
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .search-bar {
-    margin-left: 600px;
-    margin-top: 30px;
-    width: 335px;
+    margin-left: -300px;
+    margin-top: 10px;
+    width: 400px;
+    height: 20px;
+    border-width:2px;
 }
 
 .btn {
-    margin-left: 450px;
-    margin-top: -400px;
+    margin-left: 400px;
+    margin-top: 0px;
+    background-color: aquamarine;
 }
 
 .nav {
@@ -77,6 +90,11 @@ p {
 
 button {
     padding: 10px;
+    background-color: aquamarine;
+}
+
+.like-button {
+    background-color: #fcba03;
 }
 
 .zen {
@@ -114,4 +132,10 @@ button {
     margin-top: -60px;
     margin-bottom: 100px;
     position: fixed;
+    font-size: larger;
+}
+
+span {
+    color: #0b03fc;
+    text-decoration: underline;
 }
