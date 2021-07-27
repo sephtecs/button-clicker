@@ -1,0 +1,117 @@
+* {
+    margin: 0px 20px 0px 20px;
+    padding: 0px;
+}
+
+h1 {
+    margin-right: 625px;
+}
+
+.search-bar {
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 335px;
+}
+
+.btn {
+    margin-left: 450px;
+    margin-top: -400px;
+}
+
+.nav {
+    background-color: blanchedalmond;
+    height: 80px;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.container-2 {
+    padding: 20px;
+    margin-left: 300px;
+}
+
+.row {
+    display: inline-flex;
+    /* align-items:center; */
+    justify-content: top;
+}
+
+.row-2 {
+    /* display: inline-flex; */
+    /* align-items:center; */
+    /* justify-content: top; */
+}
+
+.box-size {
+    height: 250px;
+    width: 500px;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.box-size-2 {
+    height: 200px;
+    width: 300px;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.col, .col-2 {
+    margin: 10px;
+    background-color: whitesmoke;
+}
+
+.ninja-box {
+    height: 190px;
+    width: 145px;
+    margin: 25px;
+    border-style: dotted;
+    border-color: red;
+}
+
+p {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}
+
+.zen {
+    height: 100px;
+    width: 270px;
+    margin-left: 200px;
+    margin-top: -175px;
+    margin-bottom: 100px;
+    border-style: dotted;
+    border-color: red;
+}
+
+.zen-2 {
+    height: 60px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    border-style: dotted;
+    border-color: red;
+}
+
+.ninjutsu {
+    height: 100px;
+    width: 270px;
+    margin-left: 200px;
+    margin-top: -180px;
+    margin-bottom: 100px;
+    border-style: dotted;
+    border-color: red;
+}
+
+.add-def {
+    width: 230px;
+    margin-top: -60px;
+    margin-bottom: 100px;
+    position: fixed;
+}
