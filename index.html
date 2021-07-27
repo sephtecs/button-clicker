@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dojonary</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -18,7 +19,7 @@
                     <input type="text" name="search" class="search-bar" placeholder=" Search">
                 </li>
                 <li>
-                    <button class="btn">Login</button>
+                    <button class="btn" onclick="logOut(this)">Login</button>
                 </li>
             </ul>
         </div>  
@@ -30,7 +31,7 @@
                     <h1>ninja</h1>
                     <p>noun</p>
                     <p>Plural: ninjas</p>
-                    <button class="like-button">13 likes</button>
+                    <button class="like-button" onclick="alert('Ninja was liked')">13 likes</button>
                 </div>
                 <div class="ninjutsu">
                     <p>A practitioner skilled in the skilled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
@@ -41,7 +42,7 @@
                     <p>Dojonary is defined by YOU</p>
                 </div>
                 <div>
-                    <button class="add-def">Add Definition</button>
+                    <button class="add-def" onclick="hide(this)">Add Definition</button>
                 </div>
             </div>
         </div>
@@ -51,7 +52,7 @@
                     <h1>ninja</h1>
                     <p>noun</p>
                     <p>Plural: ninjas</p>
-                    <button class="like-button">37 likes</button>
+                    <button class="like-button" onclick="alert('Ninja was liked')">37 likes</button>
                 </div>
                 <div class="zen">
                     <p>A <span>programmer</span> who breaks down problems with <span>focus</span></p>
